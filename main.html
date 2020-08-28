@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create a New Event</title>
+    <link rel="stylesheet" href="design/design.css">
+    <script src="java/java.js"></script>
+</head>
+<body>
+ <div id="out">  
+     <div id="in" style="border:3px solid black">
+ <form onsubmit="submission()">   
+ <label class="blocklabel"; for="type"><b>Event Type: </b>
+    <select id="type" name="type">
+        <option value="" disabled selected hidden>Choose One</option>
+        <option value="Children's Party">Children's Party</option>
+        <option value="Dinner Party">Dinner Party</option>
+        <option value="Business Meeting">Business Meeting</option>
+        <option value="Baby Shower">Baby Shower</option>
+        <option value="Wedding Reception">Wedding Reception</option>
+        <option value="Baptism">Baptism</option>
+    </select>
+ </label>
+<br><br>
+
+<h1>TEST GIT HUB</h1>
+
+ <label>
+     <b>Event Title: </b>
+     <input type="text" id="title" name="title"/>
+ </label>
+ <br><br>
+
+ <label>
+     <b>Event Dates: </b>
+     <input type="date" id="date1" name="date1" required/> <b>to</b>
+     <input type="date" id="date2" name="date2" required/>
+ </label>
+ <br><br>
+
+ <label>
+     <b>Posting Date: </b>
+     <input type="date" id="postdate" name="postdate" required/>
+ </label>
+ <br><br><br>
+
+ <label>
+     <input type="checkbox" id="1st" name="1st"/>
+     <b>Is Registration Required?</b>
+ </label>
+ <br>
+
+ <label>
+    <input type="checkbox" id="2nd" name="2nd"/>
+    <b>Is this event associated with any Family Programs?</b>
+</label>
+<br>
+
+<label>
+    <input type="checkbox" id="3rd" name="3rd"/>
+    <b>Upon Registration Completion, Are Users to receive an Auto Generated Email?</b>
+</label>
+<br>
+
+<label>
+    <input type="checkbox" id="4th" name="4th"/>
+    <b>Is There a Point of Contact?</b>
+</label>
+<br>
+
+<label>
+    <input type="checkbox" id="5th" name="5th"/>
+    <b>Is There a Hosting Command Point of Contact?</b>
+</label>
+<br><br><br><br><br>
+
+
+<input id="save" type="submit" class="button" value="Save">
+<input id="cancel" type="reset" class="button" value="Cancel">
+</form>
+</div> 
+</div>
+</body>
+</html>
