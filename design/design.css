@@ -3,6 +3,27 @@
     width: 28%;
 }
 
+body{
+    font-family: "Comic Sans MS", cursive, sans-serif ;
+    font-size:11px;
+    color: black;
+}
+
+#HContainer{
+    background-color: #eeefee;
+    padding: .5px;
+    padding-left: 20px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    border: 1px solid;
+    position: relative;
+    margin: auto;
+}
+
+#holder{
+    width: 700px;
+    margin: auto;
+}
 #title{
     margin-left: 100px;
     width: 60%;
