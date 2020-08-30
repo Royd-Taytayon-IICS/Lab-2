@@ -1,3 +1,23 @@
+function defaultDates(){
+    let today =  new Date();
+    let Day = today.getDate();
+    let Month = today.getMonth()+1;
+    let Year = today.getFullYear();
+    if(Month.toString().length == 1){
+        Month = "0"+Month;
+    }
+    if(Day.toString().length == 1){
+        Day = "0"+Day;
+    }
+    currentDate = Year+"-"+Month+"-"+Day;
+    document.getElementById("date1").value = currentDate;
+    document.getElementById("date2").value = currentDate;
+    document.getElementById("postdate").value = currentDate;
+    document.getElementById("date1").min = currentDate;
+    document.getElementById("date2").min = currentDate;
+    document.getElementById("postdate").min = currentDate;
+}
+
 function submission(){
     let type = document.getElementById("type").value;
     let title = document.getElementById("title").value;
