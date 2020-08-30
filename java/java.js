@@ -25,7 +25,18 @@ function submission(){
     let date2 = document.getElementById("date2").value;
     let postdate = document.getElementById("postdate").value;
 
-    if(type =="" || title ==""){
-        alert("The form you are trying to submit is incomplete");
-    }else alert("You have successfully submitted your proposed event")
+    if(type === "default"){
+        alert("Please select Event Type.")
+    }else if(title === ""){
+        alert("Please enter Event Title.")
+    }else if(date1 == currentDate){
+        alert("Please select a Start date later than today.")
+    }else if(date2 == currentDate){
+        alert("Please select an End date later than today.")
+    }else if(postdate == date1 || postdate == date1){
+        alert("Please select an earlier Posting Date.")
+    }else{
+        alert("EVENT HAS BEEN CREATED!")
+    }
+
 }
