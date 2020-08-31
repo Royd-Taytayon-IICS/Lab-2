@@ -33,7 +33,7 @@ function submission(){
         alert("Please select a Start date later than today.")
     }else if(date2 == currentDate){
         alert("Please select an End date later than today.")
-    }else if(postdate == date1 || postdate == date1){
+    }else if(postdate >= date1){
         alert("Please select an earlier Posting Date.")
     }else{
         alert("EVENT HAS BEEN CREATED!")
