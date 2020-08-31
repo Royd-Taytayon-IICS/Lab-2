@@ -1,57 +1,71 @@
 #type{
     margin-left: 99px;
     width: 28%;
+    font-family: "Comic Sans MS", cursive, sans-serif ;
 }
 
 body{
     font-family: "Comic Sans MS", cursive, sans-serif ;
-    font-size:11px;
+    font-size: 14px;
     color: black;
 }
 
 #hcontainer{
+    margin-top: 60px;
     background-color: #eeefee;
-    padding: .5px;
+    padding: 5px;
     padding-left: 20px;
-    padding-top: 1px;
-    padding-bottom: 1px;
-    border: 1px solid;
     position: relative;
-    margin: auto;
+    border: 1px solid;
 }
 
 #container{
-    border-color: black;
     padding-left: 5%;
     padding-right: 5%;
-    padding-top: 15px;
-    background-color: white;
+    padding-top: 25px;
+    position: relative;
     border: 1px solid;
-    position: relative; 
 }
 
 #holder{
     width: 700px;
     margin: auto;
 }
+.blocklabel{
+    padding-left: 40px;
+}
+.blocklabel2{
+    padding-left: 50px;
+}
+.blocklabel3{
+    font-size: 16px;    
+}
+#type{
+    font-family: "Comic Sans MS", cursive, sans-serif ;
+
+}
 
 #title{
     margin-left: 100px;
     width: 60%;
+    font-family: "Comic Sans MS", cursive, sans-serif ;
 }
 
 #date1{
     margin-left: 93px;
-    width: 13%;
+    width: 25%;
+    font-family: "Comic Sans MS", cursive, sans-serif ;
 }
 
 #date2{
-width: 13%;
+    width: 25%;
+    font-family: "Comic Sans MS", cursive, sans-serif ;
 }
 
 #postdate{
     margin-left: 89px;
-    width: 13%;
+    width: 25%;
+    font-family: "Comic Sans MS", cursive, sans-serif ;
 }
 
 #out{
@@ -62,11 +76,20 @@ width: 13%;
 
 #in{
     background-color: oldlace;
-   padding-top: 10px;
-   padding-left: 30px;
+    padding-top: 10px;
+    padding-left: 30px;
 }
 
 #save, #cancel{
     width: 90px;
     height: 25px;
+    font-family: "Comic Sans MS", cursive, sans-serif ;
+    justify-content: center;
+    align-content: center;
+}
+#buttons{
+    text-align: center;
+    font-family: "Comic Sans MS", "Comic Sans";
+    color: black;
+    padding-bottom: 50px;
 }
