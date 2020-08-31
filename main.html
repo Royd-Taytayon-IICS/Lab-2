@@ -10,77 +10,77 @@
 <body onload="defaultDates()">
     <div id="holder">
         <div id="hcontainer">
-            <h2> Create a New Event</h2>
+            <label class="blocklabel3"> <b>Create a New Event</b> </label>
         </div>
- <div id="containter">  
- <form onsubmit="submission()"><br>
- <label class="blocklabel"; for="type"><b>Event Type: </b>
-    <select id="type" name="type">
-        <option value="default" disabled selected hidden>Choose One</option>
-        <option value="Career Fair">Career Fair</option>
-        <option value="Dinner Party">Org Recruitment</option>
-        <option value="Business Meeting">Business Meeting</option>
-        <option value="Paskuhan">Paskuhan</option>
-        <option value="Training">Training</option>
-        <option value="Symposium">Symposium</option>
-    </select>
- </label>
-<br><br>
+ <div id="container">  
+        <form onsubmit="submission()">
+            <label class="blocklabel"; for="type"><b>Event Type: </b>
+                <select id="type" name="type">
+                    <option value="" disabled selected hidden>Choose One</option>
+                    <option value="Children's Party">Career Fair</option>
+                    <option value="Dinner Party">Org Recruitment</option>
+                    <option value="Business Meeting">Business Meeting</option>
+                    <option value="Baby Shower">Paskuhan</option>
+                </select>
+            </label>
+                    <br><br>
 
- <label>
-     <b>Event Title: </b>
-     <input type="text" id="title" name="title" placeholder="Enter Event Title" />
- </label>
- <br><br>
+            <label class="blocklabel">
+                <b>Event Title: </b>
+                <input type="text" id="title" name="title" placeholder="Enter Event Title" />
+            </label>
+                    <br><br>
 
- <label>
-     <b>Event Dates: </b>
-     <input type="date" id="date1" name="date1" required/> <b>to</b>
-     <input type="date" id="date2" name="date2" required/>
- </label>
- <br><br>
+            <label class="blocklabel">
+                <b>Event Dates: </b>
+                <input type="date" id="date1" name="date1" required/> <b>to</b>
+                <input type="date" id="date2" name="date2" required/>
+            </label>
+                    <br><br>
 
- <label>
-     <b>Posting Date: </b>
-     <input type="date" id="postdate" name="postdate" required/>
- </label>
- <br><br>
+            <label class="blocklabel">
+                <b>Posting Date: </b>
+                <input type="date" id="postdate" name="postdate" required/>
+            </label>
+                    <br><br>
 
- <label>
-     <input type="checkbox" id="1st" name="1st"/>
-     <b>Is Registration Required?</b>
- </label>
- <br>
+            <label class="blocklabel2">
+                <input type="checkbox" id="1st" name="1st"/>
+                <b>Is Registration Required?</b>
+            </label>
+                    <br>
 
- <label>
-    <input type="checkbox" id="2nd" name="2nd"/>
-    <b>Is this event associated with any Family Programs?</b>
-</label>
-<br>
+            <label class="blocklabel2">
+                <input type="checkbox" id="2nd" name="2nd"/>
+                <b>Is this event associated with any Family Programs?</b>
+            </label>
+                    <br>
 
-<label>
-    <input type="checkbox" id="3rd" name="3rd"/>
-    <b>Upon Registration Completion, Are Users to receive an Auto Generated Email?</b>
-</label>
-<br>
+            <label class="blocklabel2">
+                <input type="checkbox" id="3rd" name="3rd"/>
+                <b>Upon Registration Completion, Are Users to receive an Auto Generated Email?</b>
+            </label>
+                    <br>
 
-<label>
-    <input type="checkbox" id="4th" name="4th"/>
-    <b>Is There a Point of Contact?</b>
-</label>
-<br>
+            <label class="blocklabel2">
+                <input type="checkbox" id="4th" name="4th"/>
+                <b>Is There a Point of Contact?</b>
+            </label>
+                    <br>
 
-<label>
-    <input type="checkbox" id="5th" name="5th"/>
-    <b>Is There a Hosting Command Point of Contact?</b>
-</label>
-<br><br><br><br><br>
+            <label class="blocklabel2">
+                <input type="checkbox" id="5th" name="5th"/>
+                <b>Is There a Hosting Command Point of Contact?</b>
+            </label>
+                <br><br><br><br><br>
 
+                <div id="buttons">
+                    <input id="save" type="submit" class="button" value="Save">
+                    <input id="cancel" type="reset" class="button" value="Cancel">
+                </div>
 
-<input id="save" type="submit" class="button" value="Save">
-<input id="cancel" type="reset" class="button" value="Cancel">
-</form>
-</div> 
+        </form>
+    </div> 
 </div>
 </body>
 </html>
